@@ -89,28 +89,6 @@ assets/
 - Widget reutilizable
 - Muestra información en cajas (nivel, vidas, tiempo)
 
-## Nombres de Variables en Español
-
-| Original (inglés) | Español |
-|-------------------|---------|
-| GameState | EstadoJuego |
-| level | nivelActual |
-| lives | vidasRestantes |
-| timeLeft | tiempoRestante |
-| dollLooking | munecaMirando |
-| playerY | posicionJugadorY |
-| finishLineY | posicionMetaY |
-| playerSize | tamanoJugador |
-| moveTimer | temporizadorMovimiento |
-| timeTimer | temporizadorTiempo |
-| dollTimer | temporizadorMuneca |
-| startGame() | iniciarJuego() |
-| startLevel() | iniciarNivel() |
-| startMove() | iniciarMovimiento() |
-| stopMove() | detenerMovimiento() |
-| loseLife() | perderVida() |
-| nextLevel() | siguienteNivel() |
-
 ## Cómo Funciona el Juego
 
 1. **Inicio**: El jugador presiona "JUGAR" en el menú
