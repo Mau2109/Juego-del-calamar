@@ -104,27 +104,6 @@ assets/
 7. **Victoria**: Completar los 3 niveles
 8. **Derrota**: Perder las 3 vidas
 
-## Correcciones Implementadas
-
-### Problema del cuadro vacío arriba
-**Solución**: En `pantalla_resultado.dart` se eliminó el AppBar y se usó `SafeArea` para que el contenido ocupe toda la pantalla correctamente.
-
-```dart
-// Antes (causaba cuadro vacío):
-return Scaffold(
-  appBar: AppBar(...),  //  Esto causaba el problema
-  body: Center(...)
-);
-
-// Ahora (correcto):
-return Scaffold(
-  backgroundColor: colorFondo,
-  body: SafeArea(  //  SafeArea sin AppBar
-    child: Center(...)
-  ),
-);
-```
-
 ## Requisitos
 
 - Flutter SDK

@@ -36,13 +36,9 @@ class PantallaResultado extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // Icono grande
-              Icon(
-                icono,
-                size: 120,
-                color: Colors.white,
-              ),
+              Icon(icono, size: 120, color: Colors.white),
               const SizedBox(height: 30),
-              
+
               // Título principal
               Text(
                 titulo,
@@ -54,18 +50,15 @@ class PantallaResultado extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 15),
-              
+
               // Subtítulo
               Text(
                 subtitulo,
                 textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontSize: 20,
-                  color: Colors.white70,
-                ),
+                style: const TextStyle(fontSize: 20, color: Colors.white70),
               ),
               const SizedBox(height: 50),
-              
+
               // Botón para volver al menú
               ElevatedButton(
                 onPressed: alVolverMenu, // Ejecuta la función al presionar
